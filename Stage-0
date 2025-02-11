@@ -1,0 +1,53 @@
+#Creating a dictionary to store details of team members
+team = [
+    {        "Name": "Amara Nwokocha",
+        "Slack Username": "@Amara",
+        "Email": "nwokochajanefrances@gmail.com",
+        "Hobby": "Reading",
+        "Country": "Nigeria",
+        "Discipline": "Biomedical Engineering",
+        "Preferred Programming Language": "Python"
+    },
+    {        "Name": "Adedeji J. Tolulope",
+        "Slack Username": "@Jesulayomi",
+        "Email": "adedejitolu724@gmail.com",
+        "Hobby": "Nigeria",  # This should be an actual hobby
+        "Country": "Nigeria",
+        "Discipline": "Cell Biology and Genetics",
+        "Preferred Programming Language": "R"
+    },
+    {        "Name": "Emilia Morgan",
+        "Slack Username": "@Emilia_M",
+        "Email": "ealmorgan@gmail.com",
+        "Hobby": "Reading",
+        "Country": "Canada",
+        "Discipline": "Software Engineering",
+        "Preferred Programming Language": "Python"
+    },
+    {        "Name": "Michael Ogar",
+        "Slack Username": "@Michael",
+        "Email": "michealogar2016@gmail.com",
+        "Hobby": "Being in the lab",
+        "Country": "Nigeria",
+        "Discipline": "Veterinary Medicine",
+        "Preferred Programming Language": "R"
+    },
+    {        "Name": "Varshini M",
+        "Slack Username": "@Varsh",
+        "Email": "vrshnm5@gmail.com",
+        "Hobby": "Reading",
+        "Country": "India",
+        "Discipline": "Biotechnology",
+        "Preferred Programming Language": "Python"    }]
+
+# Printing team details using for loop
+print("Team Members Information:\n")
+for member in team:
+    print(f"Name: {member['Name']}")
+    print(f"Slack Username: {member['Slack Username']}")
+    print(f"Email: {member['Email']}")
+    print(f"Hobby: {member['Hobby']}")
+    print(f"Country: {member['Country']}")
+    print(f"Discipline: {member['Discipline']}")
+    print(f"Preferred Programming Language: {member['Preferred Programming Language']}")
+    print("-" * 35)  # A separating line to organize
